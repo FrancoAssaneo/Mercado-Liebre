@@ -1,0 +1,732 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    margin-left: 5px;
+}
+
+
+p {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+article {
+   margin-bottom: 10px; 
+}
+
+figure {
+    position: relative;
+}
+
+
+#cuotas {
+   text-align: center; 
+   font-size: 15px;
+   margin-bottom: 5px;
+   font-weight: 400;
+   
+}
+
+.imagenML {
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.homebanner{
+    background-color: #ebebeb;
+   
+}
+
+.header {
+    background-color: #EAC926;
+    background-size: 100%;
+}
+
+.burger-menu {
+  width: 30px;
+  color: white; 
+  background-color: #1259c3; 
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  padding: 5px 0px;
+  
+}
+
+.barrabusqueda{
+    border: none;
+    width: 450px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+    outline: none;
+   
+ }
+
+ .form-barrabusqueda {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items:center;
+     width: 300px;
+     position: relative;
+     margin: auto;
+     margin-bottom: 10px;
+ }
+
+ .icono-barrabusqueda{
+     background-color: white;
+     background-size: contain;
+     background-repeat: no-repeat;
+     padding: 10px;
+     border-radius: 8px;
+     border: none;
+     position: absolute;
+     left: 270px;
+     outline: none;
+     color: #666666;
+
+ }
+
+
+.titulares {
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.precios {
+    font-size: 18px;
+    
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    margin-right: 25%;
+   
+}
+
+.descripciones {
+    font-size: 16px;
+    display: none;
+    
+}
+
+.contenedorDescripciones:hover .descripciones{
+    display: block;  
+    opacity: 0.7;
+}
+
+.contenedorDescripciones:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+.fa-id-card {
+    margin-left: 2px
+}
+
+.fa-sign-in-alt {
+    margin-left: 2px;
+}
+
+.fa-shopping-basket{
+    margin-left: 2px;
+}
+
+.truck {
+    position: absolute;
+    border: solid 1px #39b54a;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    right: 10px; 
+    bottom: 10px;
+}
+
+.fa-truck {
+   color: #39b54a;
+   margin: 5px;
+   
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.tarjeta-credito {
+    color: #1259c3;
+    size: 2em;
+    margin-bottom: 5px;
+}
+
+
+.regalo {
+    color: #1259c3;
+    size: 2em;
+    margin-bottom: 5px;
+}
+
+.seguridad {
+    color: #1259c3;
+    size: 2em;
+    margin-bottom: 5px;
+}
+
+.separador-copyright {
+    margin-top: 15px;
+    color: #666;
+}
+
+.separador-footer {
+    margin-bottom: 10px;
+}
+
+.main {
+    margin: auto;
+    width: 90%;
+    background-color:#ebebeb; 
+
+}
+
+.contenedorDescripciones {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;   
+    transition: all 450ms;
+    
+}
+
+
+
+
+.navbar {
+    display: none;
+}
+
+.cuotas {
+    margin-bottom: 15px;
+}
+
+.bottom-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formularios {
+    display: block;
+    padding: 20px 15px;
+   
+}
+
+.control-formulario {
+    margin-bottom: 20px;
+}
+
+
+.opciones-formulario {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.titulo-formulario {
+    font-weight: bold;
+}
+
+.control{
+    width: 100%;
+    border: white;
+    padding: 8px;
+}
+
+.extra-formulario {
+    margin-top: 15px;
+}
+
+.button-form {
+    margin-left: 20%;
+}
+
+.vendedor{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+.comprador {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.boton-form1 {
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+}
+
+.boton-form1 a {
+    color: white;
+    margin: auto;
+}
+
+.flex-botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton-form2 {
+    text-align: center;
+    width: 250px ;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.boton-form2 input{
+   color: white;
+   margin: auto;
+   background-color: #1259c3;
+   border: none;
+   outline: none;
+
+
+
+}
+
+.boton-form2:hover {
+    background-color: #0022AA;
+}
+
+.boton-form2:hover input {
+    background-color: #0022AA;
+}
+
+
+/* TABLET */
+@media (min-width:768px) {
+  
+    .descripciones {
+        display: block;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-navbar {
+        display: flex;
+    }
+
+    .right-navbar{
+        display: flex;
+        margin-right: 5px;
+    }
+
+    .navbar li {
+        margin: 0 5px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .contenedorDescripciones {
+        width: 300px;
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+
+    .main-header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    #cuotas {
+        min-width: 250px;
+        text-align: right;
+        margin-top: 5px ;
+        margin-right: 50px;
+        font-size: 12px;
+    }
+
+    .barrabusqueda {
+        margin-top: 5px;
+        
+    }
+
+    .imagenML {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 200px;
+    }
+
+    .ultimaVisita-ofertas {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: auto;
+        
+    }
+
+    .formularios {
+        display: block;
+        padding: 20px 15px;
+        text-align: center;
+       
+    }
+
+    .control-formulario {
+        margin-bottom: 20px;
+    }
+    
+    .opciones-formulario {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        text-align: left;
+    }
+    
+    .titulo-formulario {
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    .control{
+        width: 100%;
+        border: white;
+        padding: 8px;
+    }
+    
+    .extra-formulario {
+        margin-top: 10px;
+    }
+    
+    .button-form {
+        margin-left: 20%;
+    }
+    
+    .vendedor{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .comprador {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .barrabusqueda{
+        border: none;
+        width: 450px;
+        padding: 10px;
+        border-radius: 8px;
+        margin-left: 10px;
+        outline: none;
+       
+     }
+
+     .form-barrabusqueda {
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items:center;
+         width: 300px;
+         position: relative;
+     }
+
+     .icono-barrabusqueda{
+         background-color: white;
+         background-size: contain;
+         background-repeat: no-repeat;
+         padding: 10px;
+         border-radius: 8px;
+         border: none;
+         margin-top: 5px;
+         position: absolute;
+         left: 270px;
+         outline: none;
+
+     }
+
+     .boton-form2 {
+        text-align: center;
+        width: 700px ;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom:10px ;
+    }
+  
+    .boton-form2 input{
+       color: white;
+       margin: auto;
+       background-color: #1259c3;
+       border: none;
+       outline: none;
+    }
+    
+
+}
+
+/* DESKTOP */
+@media (min-width: 992px){
+  
+    .descripciones {
+        display: block;
+    }
+    .contenedorDescripciones {
+        width: 400px; 
+        
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    #cuotas {
+        max-width: none;
+        text-align: right;
+        margin-top: 5px ;
+        margin-right: 100px;
+        font-weight: 50000;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .barrabusqueda {
+        margin-top: 5px;
+    }
+
+    .imagenML {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 180px;
+    }
+
+    .left-navbar {
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        
+    }
+
+    .right-navbar{
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 25px;
+       
+    }
+
+    .main-header, .navbar {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+     }
+     .navbar li {
+         margin: 0px 10px;
+     }
+
+     .main-header {
+         align-items: center;
+     }
+
+     .titulares {
+        font-size: 24px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+    
+
+    .ultimaVisita-ofertas {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bottom-description {
+        display: flex;
+    }
+
+    .formularios {
+        display: block;
+        padding: 20px 15px;
+        text-align: center;
+        width: 45%;
+        margin: auto;
+        border-radius: 5px;
+       
+    }
+
+    .control-formulario {
+        margin-bottom: 20px;
+    }
+    
+    .opciones-formulario {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        text-align: left;
+    }
+    
+    .titulo-formulario {
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    .control{
+        width: 100%;
+        border: white;
+        padding: 8px;
+        border-radius: 8px;
+    }
+    
+    .extra-formulario {
+        margin-top: 10px;
+    }
+   
+    .vendedor{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .comprador {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .barrabusqueda{
+        border: none;
+        width: 450px;
+        padding: 10px;
+        border-radius: 8px;
+        margin-left: 10px;
+        outline: none;
+       
+    }
+
+     .form-barrabusqueda {
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items:center;
+         width: 530px;
+         position: relative;
+         margin-bottom: 30px;
+    }
+
+     .icono-barrabusqueda{
+         background-color: white;
+         background-size: contain;
+         background-repeat: no-repeat;
+         padding: 10px;
+         border-radius: 8px;
+         border: none;
+         margin-top: 5px;
+         position: absolute;
+         left: 480px;
+         outline: none;
+
+    }
+
+    .usuario {
+        margin-bottom: 20px;
+    }
+    
+    .boton-form2 {
+         text-align: center;
+         width: 830px ;
+         margin: auto;
+         padding-top: 10px;
+         padding-bottom:10px ;
+    }
+   
+    .boton-form2 input{
+        color: white;
+        margin: auto;
+        background-color: #1259c3;
+        border: none;
+        outline: none;
+    
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        
+    }
+
+    .separador-footer {
+        width: 350px;
+    }
+
+    .fa-credit-card {
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    .fa-gift{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .fa-user-shield {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .fa-credit-card:hover {
+        color: seagreen;
+    }
+
+    .fa-gift:hover {
+        color:seagreen;
+    }
+
+    .fa-user-shield:hover {
+        color: seagreen;
+    }
+}
