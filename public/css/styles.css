@@ -338,6 +338,10 @@ figure {
     background-color: #0022AA;
 }
 
+.main-login {
+    margin-bottom: 40%;
+}
+
 
 /* TABLET */
 @media (min-width:768px) {
@@ -503,6 +507,10 @@ figure {
        border: none;
        outline: none;
     }
+
+    .main-login {
+        margin-bottom: 60%;
+    }
     
 
 }
@@ -531,7 +539,7 @@ figure {
     }
 
     .main-login {
-        margin-bottom: 17%;
+        margin-bottom: 23%;
     }
 
     .burger-menu {
