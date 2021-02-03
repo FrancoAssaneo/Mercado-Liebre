@@ -530,6 +530,10 @@ figure {
         font-weight: 50000;
     }
 
+    .main-login {
+        margin-bottom: 17%;
+    }
+
     .burger-menu {
         display: none;
     }
